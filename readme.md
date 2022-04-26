@@ -29,13 +29,13 @@ Create a working directory into you laptop, open a CMD console and go to this di
 
 Clone the challenge code from github :
 
-	git clone
+	git clone https://github.com/pcardotatgit/secure_endpoint_catch_the_flag.git
 
 ## AMP backend Simulator Installation
 
 Change directory to the directory where is located the AMP backend Simulator **./amp_simulator**.
 
-	cd c:.../your_working_directory/6-AMP_Threat_Hunting/amp_simulator
+	cd c:.../your_working_directory/secure_endpoint_catch_the_flag/amp_simulator
 
 ### Install and start a Python virtual environment
 
@@ -60,7 +60,7 @@ We assume that you already have installed git-bash.  If so open a git-bash conso
 
 	python amp_sim.py
 	
-You should see the server start. It listen on https 4000.	
+You should see the server start. It listens on https 4000.	
 	
 	(venv) C:\Users\pcardot\Documents\tests\01_amp_challenge\amp_simulator>python amp_sim.py
 	 * Serving Flask app "amp_sim" (lazy loading)
@@ -98,7 +98,7 @@ Set the **i_got_it** variable to 1 **( i_got_it=1 )**.
 
 And then run it again until the next break.
 
-Troubleshooting every volountary bugs until you get the answers to the questions.
+Troubleshooting every voluntary bugs until you get the answers to the questions.
 
 ## Bonus Challenge
 
