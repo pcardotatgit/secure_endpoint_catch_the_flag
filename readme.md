@@ -95,9 +95,10 @@ For windows :
 	python -m venv venv 
 	venv\Scripts\activate
 
-For this script you need to install the requests module
+For this script you need to install the **requests** and the **crayons** modules
 
 	pip install requests
+	pip install crayons
 
 - Then Run the **student_code.py** file and follow the instructions.
 
