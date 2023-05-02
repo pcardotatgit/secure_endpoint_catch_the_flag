@@ -25,7 +25,14 @@ And figure out what is the AMP API URL endpoint which can help you to get the an
 
 You don't need any Cisco Secure Endpoint Account for this challenge, we provide you with and AMP backend simulator located into the **amp_simulator** folder
 
-Create a working directory into you laptop, open a CMD console and go to this directory.
+Create a working directory into you laptop, then go into it.
+
+You can download the code from this page in the .zip format by clicking on the green **code** button on the top right, and then select **Download Zip**.
+
+Next step is to unzip the content of the zip file into your working directory. You will be ready to go.
+
+Or another solution is, if you have a git client into your laptop to use it. 
+For this open a CMD console and go to this directory.
 
 Clone the challenge code from github :
 
@@ -77,11 +84,22 @@ On your windows laptop, allow the amp simulator to listen on port 4000 when the 
 
 # You are ready to go to the challenge
 
-A solution python script template is available for you.
+A python script named **student_code.py** is available for you into the **solution** folder.
 
-Go to the **solution** folder.
+Open a second CMD console and Go to the **solution** folder.
 
-- Run the **student_code.py** file and follow the instructions.
+For this code you must create a python virtual environment as well, and you must activate it.
+
+For windows :
+
+	python -m venv venv 
+	venv\Scripts\activate
+
+For this script you need to install the requests module
+
+	pip install requests
+
+- Then Run the **student_code.py** file and follow the instructions.
 
 The principle of this challenge is to troubleshoot the **student_code.py** script.  You can just run it and it will automatically break every time you have a troubleshooting action to perform.
 
