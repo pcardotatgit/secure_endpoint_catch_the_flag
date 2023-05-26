@@ -21,7 +21,7 @@ https://api-docs.amp.cisco.com/
 
 And figure out what is the AMP API URL endpoint which can help you to get the final answer.
 
-The API endpoint into which you can pass a sha256 as argument, and which gives you into it's JSON result, hostnames of infected machines.
+The API endpoint into which you can pass a sha256 as an argument, and which gives you into it's JSON result, hostnames of infected machines.
 
 # Install your CTF lab environment
 
@@ -40,7 +40,7 @@ Clone the challenge code from github :
 
 	git clone https://github.com/pcardotatgit/secure_endpoint_catch_the_flag.git
 
-## AMP backend Simulator Installation
+## Secure Endpoint backend Simulator Installation
 
 Change directory to the directory where is located the AMP backend Simulator **./amp_simulator**.
 
@@ -104,7 +104,7 @@ For this script you need to install the **requests** and the **crayons** modules
 
 - Then Run the **student_code.py** file and follow the instructions.
 
-The principle of this challenge is to troubleshoot the **student_code.py** script.  For this You can just run it and it will automatically break every time you have a troubleshooting action to perform.
+The principle of this challenge is to troubleshoot the **student_code.py** script.  For this, You can just run it and it will automatically break every time you have a troubleshooting action to perform.
 
 example :
 
