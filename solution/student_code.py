@@ -122,11 +122,11 @@ if __name__ == "__main__":
     i_got_it=0
     if i_got_it==0: 
         print(cyan(env.get_line(),bold=True))
-        print (yellow("First : assign the correct value to the variable : sha "))
+        print (yellow("First : look around and assign the correct value to the variable : sha "))
         print (yellow("Change the value of i_got_it to 1 in order to move forward"))
         sys.exit()
         
-    sha="MISSION - PASTE HERE THE SHA256"
+    sha="YOUR MISSION - PASTE HERE THE SHA256"
     amp_query_params = f"detection_sha256={sha}" 
         
     i_got_it=0
@@ -144,7 +144,7 @@ if __name__ == "__main__":
         print (yellow("then => func = base64.b64decode(m).decode('utf-8')"))
         print (yellow("then => print(func)"))    
         sys.exit()   
-    hostname_list="MISSION CALL THE CORRECT FUNCTION"   
+    hostname_list="YOUR MISSION CALL THE CORRECT PYTHON FUNCTION"   
     result=''
     for item in hostname_list:
         if item['computer']['hostname'] not in result:
