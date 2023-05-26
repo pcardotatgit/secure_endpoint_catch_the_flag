@@ -19,7 +19,9 @@ Go to :
 
 https://api-docs.amp.cisco.com/
 
-And figure out what is the AMP API URL endpoint which can help you to get the answer.
+And figure out what is the AMP API URL endpoint which can help you to get the final answer.
+
+The API endpoint into which you can pass a sha256 as argument, and which gives you into it's JSON result, hostnames of infected machines.
 
 # Install your CTF lab environment
 
