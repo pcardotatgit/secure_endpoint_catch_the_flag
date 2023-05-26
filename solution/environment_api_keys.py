@@ -33,8 +33,8 @@ import json
 AMP = {"host": "localhost:4000"}
 
 # Cisco AMP
-#AMP_API_KEY = "12345678-4f95-43d5-908d-7a7d41ad385z"
-#AMP_CLIENT_ID = "defg26458064a05f1faz"
+AMP_API_KEY = "12345678-4f95-43d5-908d-7a7d41ad385z"
+AMP_CLIENT_ID = "defg26458064a05f1faz"
 
 # Helper functions
 def get_line():

@@ -102,7 +102,7 @@ For this script you need to install the **requests** and the **crayons** modules
 
 - Then Run the **student_code.py** file and follow the instructions.
 
-The principle of this challenge is to troubleshoot the **student_code.py** script.  You can just run it and it will automatically break every time you have a troubleshooting action to perform.
+The principle of this challenge is to troubleshoot the **student_code.py** script.  For this You can just run it and it will automatically break every time you have a troubleshooting action to perform.
 
 example :
 
@@ -111,13 +111,24 @@ example :
 	First : assign the correct value to the variable : sha
 	Change the value of i_got_it to 1 in order to move forward
 
-**124** is the line number in the code where the script broke.  Go to this line and fix the code. 
+**124** is the line number in the code where the script broke.  Go to this line and look for the instructions around, fix the code. 
 
 Set the **i_got_it** variable to 1 **( i_got_it=1 )**.
 
 And then run it again until the next break.
 
-Troubleshooting every voluntary bugs until you get the answers to the questions.
+Step by step you will find the answers to all questions until the final one !  who is infected by this sha256 into your organization? ?
+
+## Quizz
+
+You have 30 mins to find the answers for the following questions that will be asked to you by the script :
+
+1 - What is the value of the AMP_API_KEY ?
+2 - What is the value of the sha256 we want to investigate ?
+3 - Which python function to call and how to call it ?
+4 - What is the correct Secure Endpoint API to use for get infected machine hostnames ?
+5 - How many Endpoint are targeted by this threat ?
+6 - What are the infected hostnames ?
 
 ## Bonus Challenge
 
